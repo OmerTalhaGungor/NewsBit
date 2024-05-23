@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+.box1{
+    height:150px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+.box-menu{
+    border-bottom: 3px solid red;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1f1f1f;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li.menu {
+    display: inline-block;
+}
+
+.acilir {
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    min-width: 160px;
+}
+
+.acilir a {
+    display: block;
+    text-align: left;
+    color: #111;
+    border-bottom: 1px solid black;
+}
+
+.acilir a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.menu:hover .acilir {
+    display: block;
+
+}
+
+.bi-search{
+    padding-left: 500px;
+}
+.box2{
+    display:flex;
+    justify-content:flex-end;
+    margin-top: 30px;
+
+    height: 500px;
+    width: 90%;
+}
+.box2-Image1{
+    width: 350px;
+    height: 477px;
+    background-color: black;
+    background-image: url(/Image/img-1.jpg);
+    background-position: 50%;
+    border-radius: 5px;
+
+}
+.box2-Image2{
+    width: 350px;
+    height: 477px;
+    margin-left: 20px;
+    background-color: black;
+    background-image: url(/Image/img-2.jpg);
+    background-position: 50%;
+    border-radius: 5px;
+}
+.box2-Image3{
+    width: 350px;
+    height: 477px;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+.Image3-1{
+    width: 350px;
+    height: 230px;
+    background-image: url(/Image/news-02.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.Image3-2{
+    width: 350px;
+    height: 230px;
+    background-image: url(/Image/news-04.jpg);
+    background-size: cover;
+    margin-top: 18px;
+    border-radius: 5px;
+    /* filter: brightness(100%); */
+}
+
+
+
+
+
+
+.box-4{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 100px;
+    width: auto;
+    height:auto;
+
+}
+.bolum1{
+    height: auto;
+    width: auto;
+}
+.blm1{
+    /* width: 900px;
+    height: 600px; */
+    text-decoration: none;
+    height: 540px;
+    width: 355px;
+    float: left;
+}
+.blm1>a{
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #111;
+    margin-top: 60px;
+}
+.blm1>a:hover{
+    color: #dc3545;
+    transition: .2s all;
+    text-decoration: none;
+
+}
+
+
+
+.bolum2{
+    height: auto;
+    width: auto;
+}
+.blm2{
+    /* width: 900px;
+    height: 600px; */
+    text-decoration: none;
+    height: 140px;
+    width: 355px;
+    margin-left: 400px;
+    display: flex;
+
+}
+.blm2>a{
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #111;
+    margin-top: 60px;
+}
+.blm2>a:hover{
+    color: #dc3545;
+    transition: .2s all;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+ /* -----------------------------box-5 alanı----------------------------------- */
+
+ .box-5{
+    width: 100%;
+    height: 800px;
+    background-color: #f5f5fd;
+    margin-top: 200px;
+ }
+ .box-5-ust{
+    display: flex;
+    justify-content: center;
+ }
+ .box-5-alt{
+    width: 100%;
+    height: 600px;
+
+
+ }
+ /* .alt1{
+    width: 400px;
+    height: 600px;
+    float: left;
+    border: 1px solid black;
+ } */
+ .alt1{
+    float: left;
+  }
+ 
+
+
+.ortalama{
+    display: flex;  
+    justify-content: center;
+}
+/* .author{
+    display: flex;
+} */
+
+
+
+
+/*------------------------------------footer----------------------------------------- */
+
+footer{
+    background-color: #111;
+    width: 100%;
+    height: 400px;
+    display: flex;
+
+}
+footer p{
+    font-size: 16px;
+    color: #94949e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -400px;
+    font-size: 17px;
+    
+}
+.footerlogo{  
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding-left: 680px;
+    padding-top: 100px;
+}
+
+
+.Previus{
+
+    padding: 5px 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
